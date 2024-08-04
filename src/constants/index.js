@@ -68,6 +68,8 @@ export const PROJECTS = [
   },
 ];
 
+
+
 export const CONTACT = {
   address: "Scholars Nest Boyz Hostel, Kota Rd., Raipur",
   phoneNo: "+91-7587100450",
