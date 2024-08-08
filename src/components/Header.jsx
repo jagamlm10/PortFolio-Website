@@ -32,6 +32,17 @@ const Header = () => {
             >
               {HERO_CONTENT}
             </motion.p>
+            <motion.a
+              href="https://drive.google.com/file/d/1lvXfCmjpuzJt4vORQQJm8bCisqDV0SWq/view?usp=sharing"
+              target="_blank"
+              initial={{ x: -100, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 1.8 }}
+            >
+              <button className="mt-4 bg-gradient-to-r from-blue-500 via-purple-600 to-red-500 h-12 w-36 rounded-full">
+                My Resume
+              </button>
+            </motion.a>
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
