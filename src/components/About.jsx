@@ -32,7 +32,7 @@ const About = () => {
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="w-full lg:w-1/2 sm:flex sm:justify-center sm:items-center -mt-8"
+          className="w-full lg:w-1/2 sm:flex sm:justify-center sm:items-center  lg:-mt-8"
         >
           <div className="flex flex-col justify-center gap-10 lg:justify-start py-6 lg:pt-16">
             <p className="max-w-xl text-lg">{ABOUT_TEXT1}</p>
