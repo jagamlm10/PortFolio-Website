@@ -20,7 +20,7 @@ const Header = () => {
               initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.2 }}
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-center text-4xl tracking-tight text-transparent pb-1"
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent pb-1"
             >
               Final Year Undergrad
             </motion.span>
@@ -28,7 +28,7 @@ const Header = () => {
               initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 1.5 }}
-              className="my—1 max-w-xl py-6 tracking-tighter text-2xl"
+              className="lg:text-left my—1 max-w-xl py-6 tracking-tighter lg:text-2xl lg:font-light italic text-center text-lg"
             >
               {HERO_CONTENT}
             </motion.p>
